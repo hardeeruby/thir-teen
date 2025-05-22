@@ -7,10 +7,10 @@
  
 - Offspring
     - Sondra Huxtable Thibideaux
-        - Winnie Thibideaux
-        - Nelson Thibideaux
+      - Winnie Thibideaux
+      - Nelson Thibideaux
     - Denise Huxtable Kendall
-        - Olivia Kendall
+      - Olivia Kendall
     - Theodore Aleyuisus Huxtable
     - Vanessa Huxtable
     - Rudith Lillian Huxtable
