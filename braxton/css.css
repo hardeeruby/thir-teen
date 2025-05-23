@@ -1,0 +1,164 @@
+body {
+	background-color: #c5c5c5;
+	padding: 0px;
+	margin: 0px;
+	font-family: verdana;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;}
+#mobile, #mobileTable {display: none!important}
+	/**original is 0.2**/
+#imageTable {box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4), 0px 6px 20px 0px rgba(0, 0, 0, 0.19);}	
+.welcome {
+	background-color: #transparent;
+	padding: 5px;
+	margin: 2px;
+	font-family: verdana;
+	font-size: 8pt;
+	line-height: 13pt;
+	color: #555;
+	display: block; 
+	letter-spacing: 1pt;}
+	.welcome b, .welcome i {color: #888;}
+	.welcome u {color: #ccc;}
+	.welcome a {color: #fff; transition: 0.4s; text-decoration:none;}
+	.welcome a:hover {color: #999; transition: 0.4s; text-decoration: none;}
+	ul li {list-style-type: none! important; list-style: none!important; list-style-image: none!important;}
+.latest ul {margin: auto; width: 90%; background-color: #000;}
+.latest ul li {
+	display: block;
+	list-style-type: none!important; list-style: none!important!; list-style-image: none!important;
+	background-color: #030303;
+	padding: 8px;
+	margin-left: -40px;
+	color: #777;
+	font-size: 8pt;
+	transition: 0.4s;}
+.latest ul li:hover {
+	background-color: #000;
+	transition: 0.1s;
+}
+.latest>#latest ul li {text-align: right; padding: 8px;}
+.latest>#latest>ul li a {color: #5f0205; text-decoration: none; transition: 0.4s;}
+.latest>#latest>ul li a:hover {color: #cb0e14; transition: 0.4s;} 
+.latest>ul li {text-align: left; text-indent: 25px;}
+.latest>ul li a {color: #5f0205; text-decoration: none; transition: 0.4s;}
+.latest>ul li a:hover {color: #cb0e14; text-decoration: none; transition: 0.4s;}
+
+
+#sidebar {display:block; width: 320px;}
+#sidebar>.maintitle {
+	background-color: #020202;
+	font-size: 10pt;
+	letter-spacing: 1pt;
+	border-bottom: 2px solid #040404;
+	color: #5f0205;
+	text-transform: uppercase;
+	padding: 14px;
+	margin: 0px;
+}
+#sidebar>.content {
+	background-color: #000;
+	font-size: 9pt;
+	line-height: 15pt;
+	color: #555;
+	margin: 2px;
+	padding: 10px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+#sidebar>.content#elite {text-align:center;}
+#sidebar>.content a{color: #aaa; transition: 0.4s;}
+#sidebar>.content a:hover{color:#fff; transition: 0.4s;}
+#sidebar #sites ul {display: block; margin-left: -30px;}
+#sidebar li {border-bottom: 1px solid #090909; line-height: 16pt; text-align: right; padding: 10px; font-family: trebuchet ms; font-size: 8pt; letter-spacing: 1pt;border-left: 5px solid #2b0204; color: #444;}  
+#sidebar #sites ul li a {color: #777; text-decoration: none;}
+#sidebar #sites ul li a:hover {color: #fff; text-decoration: none;}
+#sidebar>.content>img#bio{background-color: #040404; margin:0px; padding: 0px; border: 2px solid #222; opacity: 0.6; transition: 0.4s;}
+#sidebar>.content>img#bio:hover {background-color: #090909; margin: 0px; padding: 0px; border: 2px solid #222; opacity: 1; transition: 0.4s;} 
+#sidebar>.content>a>img#elite{background-color: #030303; margin: 0px; padding: 0px; border: 2px solid #030303; opacity: 0.4; transition: 0.9s;} 
+#sidebar>.content>a:hover>img#elite{background-color: #030303; margin: 0px; padding: 0px; border: 2px solid #090909; opacity: 1; transition: 1s;}
+img#elite {height: 70px; width: 50px;} 
+
+#content-content {display: block; width: 880px; margin-left: 90px;}
+#content-content>.maintitle {	background-color: #020202;
+	font-size: 10pt;
+	border-bottom: 2px solid #040404;
+	color: #5f0205;
+	text-transform: uppercase;
+	padding: 14px;
+	margin: 0px;}
+#content-content>.content{	background-color: #000;
+	font-size: 9pt;
+	line-height: 15pt;
+	color: #555;
+	margin: 2px;
+	margin-bottom: 30px;
+	padding: 10px;}
+	
+#content-content>.content>.blockquote, #content-content>.content>#blockquote {
+	background-color: #040404;
+	font-family: verdana;
+	font-size: 8pt;
+	color: #555;
+	line-height: 16pt;
+	letter-spacing: 1pt;
+	text-align: center;
+	border: 1px solid #080808;
+	margin-bottom: 12px;
+	
+}
+#content-content>.content>.blockquote img, #content-content>.content>#blockquote img {
+	border: 4px solid #111;
+	padding: 2px;
+	margin: 2px;
+	opacity: 0.6;
+	background-color: #transparent;
+	height: 120px;
+	width: 120px;
+}	
+#content-content>.content>.blockquote>a,#content-content>.content>#blockquote>a {letter-spacing:2pt;} 
+.footer {background-color: #090909; font-family: verdana; font-size: 9pt; line-height: 15pt; color: #666666; padding: 10px; text-align: center; text-transform: uppercase; letter-spacing:1pt;}
+	
+.subtitle {background-color: #020202; color: #444; padding: 5px; font-size: 7pt; text-align: center; text-transform: uppercase;}
+.subtitle a:link {color: #666666; text-decoration: none; transition: 0.4s;}
+.subtitle a:hover {color: #fff; text-decoration: none; transition: 0.4s;}
+b, i, em {color: #0e1848; }/*orginal red color was #5f0205; if in doubt use purple #0e1848; current purple #0e1539*/
+a:link, a:active, a:visited {color: #777; transition: 0.4s; text-decoration: none;}
+a:hover {color: #fff; text-decoration: none; transition: 0.4s;}
+
+
+
+@media (max-width: 799px) and (min-width: 320px) {
+    body {background-color: #ccc; background-image: none!important; overflow-x: hidden!important;}
+    #mobile {display: inline-block!important}
+	#mobileTable{padding: 10px;
+height: 60px;
+z-index: 1000;
+background-color: #101010;
+width: 100%; 
+position: fixed;
+top: 0px;  }
+    #BraxtonMainTable {display:none!important;}
+    #sidebar{display:none!important;}
+    #content-content {width: 100%; margin: auto; background-color: #999; padding: 0px;}
+    #content-content>.maintitle {color: #999; background-color: #440001;border-bottom: 4px solid #630507;}
+    
+    
+    #content-content>.content {background-color: #999; color: #333; line-height: 14pt;} 
+    #content-content>.content a {color: #555; text-decoration: none; transition: 0.4s;}
+    #content-content>.content a:hover {color: #fff; text-decoration: none; transition: 0.4s;}
+    
+    
+    #content-content>.content>#blockquote, #content-content>.content>.blockquote {background-color: #888; border: 0;}
+    #content-content>.content>#blockquote a{letter-spacing: normal;color: #0E1848; transition: 0.4s;}
+    #content-content>.content>.blockquote a{letter-spacing: normal; color: #0E1848; transition: 0.4s;}
+    #content-content>.content>#blockquote, #content-content>.content>.blockquote {color: #ccc;}
+    #content-content>.content>#blockquote a:hover, #content-content>.content>.blockquote a:hover{color: #0E1848; transition: 04.s;}
+    
+    
+    .subtitle a:link, .subtitle a:active,.subtitle a:visited, .subtitle a:hover{color: #999;}
+    .subtitle {color: #444;}
+    
+    .footer {box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 7), 0px 6px 20px 0px rgba(0, 0, 0, 7);
+        background-color: #000; font-family: verdana; font-size: 9pt; line-height: 15pt; color: #666666; padding: 10px; margin-top: -10px; text-align:center;}
+}
