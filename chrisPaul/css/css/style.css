@@ -1,0 +1,107 @@
+/* =Nav
+-------------------------------------------------------------- */
+#nav-trigger {
+  display: none;
+  text-align: right; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 0px 0px;
+    background-color: #101010;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; }
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";  }
+    #nav-trigger span:hover {
+      background-color: #101010; }
+    #nav-trigger span.open:after {
+      border-left: solid 0px transparent;
+      border-top: none;
+      border-bottom: solid 0px #fff;
+      border-right: solid 0px transparent; } 
+nav {
+  margin-bottom: 30px; }
+/*IMPORTANT!!!*/
+nav#nav-main {
+  background-color: #c80032;
+  display:none!important;
+  padding: 10px 0; }
+  nav#nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  nav#nav-main li {
+    display: inline-block;
+    border-right: solid 1px #950025;
+    padding: 0 5px; }
+    nav#nav-main li:last-child {
+      border-right: none; }
+  nav#nav-main a {
+    display: block;
+    color: white;
+    padding: 10px 30px; }
+    nav#nav-main a:hover {
+      background-color: #af002c;
+      color: #fff; }
+
+nav#nav-mobile {
+  position: relative;
+  display: none; }
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: -52;
+    right: 7; 
+	margin-top: 10;
+    margin-right: auto;
+    text-align: center;
+    background-color: #222; }
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: solid 1px #282828; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {  font-family: trebuchet ms; 
+  letter-spacing: 2pt;
+    display: block;
+	text-decoration: none;
+    color: #777;
+	transition: 0.4s;
+    padding: 10px 30px; }
+    nav#nav-mobile a:hover {  font-family: trebuchet ms; 
+  letter-spacing: 2pt;
+      text-decoration: none;
+	  background-color: #191919;
+	  transition: 0.4s;
+      color: #c7bf60; }
+
+/* =Sections
+-------------------------------------------------------------- */
+section h1 {
+  margin-bottom: 10px; }
+
+section p {
+  margin-bottom: 30px; }
+  section p:last-child {
+    margin-bottom: 0; }
+
+/* =Media Queries
+-------------------------------------------------------------- */
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block;
+width: 100%;	} }
