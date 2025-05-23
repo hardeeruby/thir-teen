@@ -66,23 +66,23 @@ p {font-family: verdana; font-size: 8pt;}
 ul#List1 {list-style-type: none; background-color: #transparent;}
 ul#List1>li {color: #ccc; list-style-type:none; font-size: 8pt; letter-spacing: 1pt;} 
 
-*>img#bio {transition: 0.4s; margin: 2px; opacity: 0.6; padding: 4px; background: #ffffff url('file:///D:/sites/neocities/andymineo/images/picbg.png') no-repeat right bottom;}
+*>img#bio {transition: 0.4s; margin: 2px; opacity: 0.6; padding: 4px; background: #ffffff url('images/picbg.png') no-repeat right bottom;}
 *>img#bio:hover {transition: 0.4s; opacity: 1;}
 *>img#brother{margin: 2px; padding: 2px; background-color: #7dabdc; border: 2px solid #6199d3; opacity: 1; transition: 0.4s;} 
 *>img#brother:hover {opacity: 1; transition: 0.4s;} 
 
-*>img#latest {background: #ffffff url('file:///D:/sites/neocities/andymineo/images/picbg.png') no-repeat right bottom; height:80px; width: 80px; opacity: 0.5; padding: 5px; transition: 0.4s; margin: 2px;}
+*>img#latest {background: #ffffff url('images/picbg.png') no-repeat right bottom; height:80px; width: 80px; opacity: 0.5; padding: 5px; transition: 0.4s; margin: 2px;}
 *>img#latest:hover{opacity: 1; transition: 0.4s;background: #ffffff url('images/picbghover1.png')} 
 
 
-*>.content>*>li#navigation {list-style-type: none; background: #825ce5 url('file:///D:/sites/neocities/andymineo/images/navibg.jpg'); margin-left: -40px; padding: 10px; letter-spacing: 1pt; border-bottom: 0px; margin-bottom: 3px; opacity: 1; transition: 0.4s; color: #fff;}
+*>.content>*>li#navigation {list-style-type: none; background: #825ce5 url('images/navibg.jpg'); margin-left: -40px; padding: 10px; letter-spacing: 1pt; border-bottom: 0px; margin-bottom: 3px; opacity: 1; transition: 0.4s; color: #fff;}
 *>.content>*>li#navigation a, *>.content>*>li#navigation1 a:hover{color: #fff; text-transform: uppercase; text-decoration:none; font-weight: bold; letter-spacing: 2pt;}
 *>.content>*>li#navigation a:hover {color: #00c6ff; transition: 0.4s;}
  
 
 
 /*FIRST ONE*/
-*>.content>*>li#navigation1{list-style-type: none; background: #825ce5 url('file:///D:/sites/neocities/andymineo/images/navibg1.jpg'); margin-left: -40px; padding: 10px; letter-spacing: 1pt; border-bottom: 0px; margin-bottom: 3px; opacity: 1; transition: 0.4s; color: #fff;}
+*>.content>*>li#navigation1{list-style-type: none; background: #825ce5 url('images/navibg1.jpg'); margin-left: -40px; padding: 10px; letter-spacing: 1pt; border-bottom: 0px; margin-bottom: 3px; opacity: 1; transition: 0.4s; color: #fff;}
 *>.content>*>li#navigation1 a {color: #528FCE; text-transform: uppercase;  font-weight: bold; letter-spacing: 2pt;}
 
 *>.content>*>li#navigation span, *>.content>*>li#navigation1 span {color: #fff; font-family: arial;}
@@ -123,8 +123,8 @@ ul#List1>li {color: #ccc; list-style-type:none; font-size: 8pt; letter-spacing: 
 	letter-spacing: 1pt;}
 .subtitle a {color: #7B60E1; text-decoration:none; transition: 0.4s;}
 .subtitle a:hover {color:#52CE64;text-decoration: none; transition: 0.4s;}
-.media img {width: 100px; height: 100px; margin: 2px; padding: 4px; transition:0.4s; background: #ffffff url('file:///D:/sites/neocities/andymineo/images/picbg.png') no-repeat right bottom; border: 0px dotted #444;}
-.media img:hover { border:0px dotted #444; transition: 0.4s; background-color: #232323; opacity: 1; background: #ffffff url('file:///D:/sites/neocities/andymineo/images/picbghover.png') no-repeat right bottom;}
+.media img {width: 100px; height: 100px; margin: 2px; padding: 4px; transition:0.4s; background: #ffffff url('images/picbg.png') no-repeat right bottom; border: 0px dotted #444;}
+.media img:hover { border:0px dotted #444; transition: 0.4s; background-color: #232323; opacity: 1; background: #ffffff url('images/picbghover.png') no-repeat right bottom;}
 .media {
 	background-color: #eee; /*orig 09*/  
 	margin: 0px;
