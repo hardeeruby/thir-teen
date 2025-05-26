@@ -14,3 +14,7 @@
     - Theodore Aleyuisus Huxtable
     - Vanessa Huxtable
     - Rudith Lillian Huxtable
+ 
+  - In-Laws
+    - Elvin Thibideaux (Sondra's husband)
+    - Martin Kendall (Denise's husband)
