@@ -11,7 +11,7 @@
       - Nelson Thibideaux
     - Denise Huxtable Kendall
       - Olivia Kendall (stepdaughter)
-    - Theodore Aleyuisus Huxtable
+    - Theodore Aloysius Huxtable
     - Vanessa Huxtable
     - Rudith Lillian Huxtable
 
