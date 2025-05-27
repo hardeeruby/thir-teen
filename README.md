@@ -10,7 +10,7 @@
       - Winnie Thibideaux
       - Nelson Thibideaux
     - Denise Huxtable Kendall
-      - Olivia Kendall
+      - Olivia Kendall (stepdaughter)
     - Theodore Aleyuisus Huxtable
     - Vanessa Huxtable
     - Rudith Lillian Huxtable
