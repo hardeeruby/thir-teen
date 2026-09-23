@@ -19,7 +19,8 @@
     - Elvin Thibideaux (Sondra's husband)
     - Martin Kendall (Denise's husband)
   
-   - Significant Others
+  
+  - Significant Others
      - Justine (Theo)
      - Sheryl (Theo)
      - Randi (Theo)
