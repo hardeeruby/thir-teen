@@ -18,3 +18,13 @@
  - In-Laws
     - Elvin Thibideaux (Sondra's husband)
     - Martin Kendall (Denise's husband)
+  
+   - Significant Others
+     - Justine (Theo)
+     - Sheryl (Theo)
+     - Randi (Theo)
+     - Lana (Theo)
+     - Darryl (Sandra)
+     - Stanley (Rudy)
+     - Jeremy (Vanessa)
+     - Robert (Vanessa)
